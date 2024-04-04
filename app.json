@@ -1,6 +1,6 @@
 {
-    "name": "˹𝗧𝗢𝗫𝗜𝗖-𝗫𝗗˼☢️",
-    "logo": "https://graph.org/file/2d7e674205bab8329026c.jpg",
+    "name": "​🇲​​🇦​​🇲​​🇧​​🇦​ ​🇸​​🇵​​🇪​​🇪​​🇩​ ​🇸​​🇵​​🇦​​🇲​​🇲​​🇪​​🇷​​🇸​ 🐍",
+    "logo": "https://te.legra.ph/file/510a18c7896006c54752d.jpg",
     "keywords": [
         "telegram",
         "telethon",
@@ -8,7 +8,7 @@
         "PythonX",
         "SpamBots"
     ],
-    "repository": "https://graph.org/file/2d7e674205bab8329026c.jpg",
+    "repository": "https://te.legra.ph/file/510a18c7896006c54752d.jpg",
     "env": {
       "BOT_TOKEN": {
         "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
