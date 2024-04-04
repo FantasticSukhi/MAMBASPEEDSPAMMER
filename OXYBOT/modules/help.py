@@ -3,22 +3,22 @@ from telethon import events, Button
 from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10, SUDO_USERS, CMD_HNDLR as hl
 
 
-HELP_STRING = f"˹𝗧𝗢𝗫𝗜𝗖-𝗫𝗗˼☢️ 𝙃𝙚𝙡𝙥 𝙈𝙚𝙣𝙪 ★\n\n» **𝐂𝐋𝐈𝐂𝐊 𝐎𝐍 𝐁𝐔𝐓𝐓𝐎𝐍 𝐅𝐎𝐑 𝐇𝐄𝐋𝐏**\n» **𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥: ˹𝗧𝗢𝗫𝗜𝗖-𝗫𝗗˼☢️**"
+HELP_STRING = f"𝗛𝗘𝗟𝗣 𝗠𝗘𝗡𝗨 𝗙𝗢𝗥 𝗠𝗔𝗠𝗕𝗔 𝗦𝗣𝗘𝗘𝗗 𝗦𝗣𝗔𝗠𝗠𝗘𝗥𝗦 🐍 ★\n\n» **𝐂𝐋𝐈𝐂𝐊 𝐎𝐍 𝐁𝐔𝐓𝐓𝐎𝐍 𝐅𝐎𝐑 𝐇𝐄𝐋𝐏**\n» **ɖɛʋɛʟօքɛʀ: 𝗕𝗟𝗔𝗖𝗞𝗠𝗔𝗠𝗕𝗔🐍 **"
 
 HELP_BUTTON = [
     [
-      Button.inline("★𝗦𝗣𝗔𝗠★", data="spam"),
-      Button.inline("★𝗥𝗔𝗜𝗗★", data="raid")
+      Button.inline("ֆքǟʍ", data="spam"),
+      Button.inline("ʀǟɨɖ", data="raid")
     ],
     [
-      Button.inline("★𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦★", data="extra")
+      Button.inline("ƈօʍʍǟռɖֆ", data="extra")
     ],
     [
-      Button.url("★𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥★", "https://t.me/T3AMS_TOXIC"),
-      Button.url("★𝗦𝗨𝗣𝗣𝗢𝗥𝗧★", "https://t.me/TCF_OFFICIAL")
+      Button.url("ɖɛʋɛʟօքɛʀ", "https://t.me/ITZ_ME_BLACKMAMBA"),
+      Button.url("ֆʊքքօʀȶ", "https://t.me/MAMBA_UPDATES_CHAT")
     ],
   [   
-      Button.inline("★𝗡𝗘𝗪 𝗖𝗢𝗠𝗠𝗔𝗡𝗗★", data="toxic")
+      Button.inline("ռɛա ƈօʍʍǟռɖֆ", data="toxic")
       
   ]
 ]
@@ -38,7 +38,7 @@ async def help(event):
     if event.sender_id in SUDO_USERS:
         try:
           await event.client.send_file(event.chat_id,
-              "https://graph.org/file/2d7e674205bab8329026c.jpg",
+              "https://te.legra.ph/file/510a18c7896006c54752d.jpg",
               caption=HELP_STRING,
               buttons=HELP_BUTTON
               )
@@ -67,7 +67,7 @@ extra_msg = f"""
 💖 𝗔𝗯𝘂𝘀𝗲𝗦𝗽𝗮𝗺: **🌺ᴏɴᴇ ᴡᴏʀᴅ ʙɪɢ ɢᴀᴀʟɪ sᴘᴀᴍ🌺**
   1) {hl}𝚊𝚋𝚞𝚜𝚎 <𝚌𝚘𝚞𝚗𝚝> <𝚞𝚜𝚎𝚛𝚗𝚊𝚖𝚎>
   
-**© ˹𝗧𝗢𝗫𝗜𝗖-𝗫𝗗˼☢️**
+**© ɮʟǟƈӄʍǟʍɮǟ🐍 **
 """
 
 
@@ -105,7 +105,7 @@ yash_msg = f"""
 
 
 
-**© ˹𝗧𝗢𝗫𝗜𝗖-𝗫𝗗˼☢️**💘
+**© ɮʟǟƈӄʍǟʍɮǟ 🐍**💘
 """
 
                  
@@ -136,7 +136,7 @@ raid_msg = f"""
   1) {hl} 𝐂𝐑𝐀𝐈𝐃 < 𝐂𝐎𝐔𝐍𝐓 > < 𝐔𝐒𝐄𝐑𝐍𝐀𝐌𝐄 >
   2) {hl} 𝐂𝐑𝐀𝐈𝐃 < 𝐂𝐎𝐔𝐍𝐓 > <𝐑𝐄𝐏𝐋𝐘 𝐓𝐎 𝐀 𝐔𝐒𝐄𝐑 >
 
-**© ˹𝗧𝗢𝗫𝗜𝗖-𝗫𝗗˼☢️**💘
+**© ɮʟǟƈӄʍǟʍɮǟ 🐍**💘
 """
 
 spam_msg = f"""
@@ -153,7 +153,7 @@ spam_msg = f"""
   1) {hl}𝐇𝐀𝐍𝐆 < 𝐂𝐎𝐔𝐍𝐓𝐄𝐑 >
 
 
-** © ˹𝗧𝗢𝗫𝗜𝗖-𝗫𝗗˼☢️**
+** © ɮʟǟƈӄʍǟʍɮǟ 🐍**
 """                     
            
            
@@ -173,21 +173,21 @@ async def helpback(event):
             HELP_STRING,
             buttons=[
               [
-                Button.inline("★𝗦𝗣𝗔𝗠★", data="spam"),
-                Button.inline("★𝗥𝗔𝗜𝗗★", data="raid"),
-                Button.inline("★𝗡𝗘𝗪 𝗖𝗢𝗠𝗠𝗔𝗡𝗗★", data="toxic")
+                Button.inline("★ֆքǟʍ★", data="spam"),
+                Button.inline("★ʀǟɨɖ★", data="raid"),
+                Button.inline("★ռɛա ƈօʍʍǟռɖֆ★", data="toxic")
               ],
               [
-                Button.inline("★𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦★", data="extra")
+                Button.inline("★ƈօʍʍǟռɖֆ★", data="extra")
               ],
               [
-                Button.url("★𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥★", "https://t.me/T3AMS_TOXIC"),
-                Button.url("★𝗦𝗨𝗣𝗣𝗢𝗥𝗧★", "https://t.me/TCF_OFFICIAL")
+                Button.url("★ɖɛʋɛʟօքɛʀ★", "https://t.me/ITZ_ME_BLACKMAMBA"),
+                Button.url("★ֆʊքքօʀȶ★", "https://t.me/MAMBA_UPDATES_CHAT")
               ]
             ]
           )
     else:
-        await event.answer("★𝐏𝐋𝐄𝐀𝐒𝐄 𝐉𝐎𝐈𝐍 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 𝐆𝐑𝐎𝐔𝐏 𝐀𝐍𝐃 𝐓𝐀𝐆 @T3AMS_TOXIC★" , cache_time=0, alert=True)
+        await event.answer("★𝐏𝐋𝐄𝐀𝐒𝐄 𝐉𝐎𝐈𝐍 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 𝐆𝐑𝐎𝐔𝐏 𝐀𝐍𝐃 𝐓𝐀𝐆 @MAMBA_UPDATES★" , cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"spam"))
@@ -206,7 +206,7 @@ async def help_spam(event):
               buttons=[[Button.inline("< Back", data="help_back"),],],
               ) 
     else:
-        await event.answer("★𝐏𝐋𝐄𝐀𝐒𝐄 𝐉𝐎𝐈𝐍 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 𝐆𝐑𝐎𝐔𝐏 𝐀𝐍𝐃 𝐓𝐀𝐆 @T3AMS_TOXIC★", cache_time=0, alert=True)
+        await event.answer("★𝐏𝐋𝐄𝐀𝐒𝐄 𝐉𝐎𝐈𝐍 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 𝐆𝐑𝐎𝐔𝐏 𝐀𝐍𝐃 𝐓𝐀𝐆 @MAMBA_UPDATES★", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"raid"))
@@ -225,7 +225,7 @@ async def help_raid(event):
             buttons=[[Button.inline("< Back", data="help_back"),],],
           )
     else:
-        await event.answer("★𝐏𝐋𝐄𝐀𝐒𝐄 𝐉𝐎𝐈𝐍 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 𝐆𝐑𝐎𝐔𝐏 𝐀𝐍𝐃 𝐓𝐀𝐆 @T3AMS_TOXIC★", cache_time=0, alert=True)
+        await event.answer("★𝐏𝐋𝐄𝐀𝐒𝐄 𝐉𝐎𝐈𝐍 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 𝐆𝐑𝐎𝐔𝐏 𝐀𝐍𝐃 𝐓𝐀𝐆 @MAMBA_UPDATES★", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"extra"))
@@ -244,7 +244,7 @@ async def help_extra(event):
             buttons=[[Button.inline("< Back", data="help_back"),],],
             )
     else:
-        await event.answer("★𝐏𝐋𝐄𝐀𝐒𝐄 𝐉𝐎𝐈𝐍 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 𝐆𝐑𝐎𝐔𝐏 𝐀𝐍𝐃 𝐓𝐀𝐆 @T3AMS_TOXIC★", cache_time=0, alert=True)
+        await event.answer("★𝐏𝐋𝐄𝐀𝐒𝐄 𝐉𝐎𝐈𝐍 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 𝐆𝐑𝐎𝐔𝐏 𝐀𝐍𝐃 𝐓𝐀𝐆 @MAMBA_UPDATES★", cache_time=0, alert=True)
         
 
 @X1.on(events.CallbackQuery(pattern=r"yash"))
@@ -263,5 +263,5 @@ async def help_yash(event):
              buttons=[[Button.inline("< Back", data="help_back"),],],
              )
      else:
-         await event.answer("★𝐏𝐋𝐄𝐀𝐒𝐄 𝐉𝐎𝐈𝐍 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 𝐆𝐑𝐎𝐔𝐏 𝐀𝐍𝐃 𝐓𝐀𝐆 @T3AMS_TOXIC★", cache_time=0, alert=True)
+         await event.answer("★𝐏𝐋𝐄𝐀𝐒𝐄 𝐉𝐎𝐈𝐍 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 𝐆𝐑𝐎𝐔𝐏 𝐀𝐍𝐃 𝐓𝐀𝐆 @MAMBA_UPDATES★", cache_time=0, alert=True)
 
