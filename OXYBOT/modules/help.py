@@ -173,21 +173,21 @@ async def helpback(event):
             HELP_STRING,
             buttons=[
               [
-                Button.inline("★ֆքǟʍ★", data="spam"),
-                Button.inline("★ʀǟɨɖ★", data="raid"),
-                Button.inline("★ռɛա ƈօʍʍǟռɖֆ★", data="toxic")
+                Button.inline("ֆքǟʍ", data="spam"),
+                Button.inline("ʀǟɨɖ", data="raid"),
+                Button.inline("ռɛա ƈօʍʍǟռɖֆ", data="toxic")
               ],
               [
-                Button.inline("★ƈօʍʍǟռɖֆ★", data="extra")
+                Button.inline("ƈօʍʍǟռɖֆ", data="extra")
               ],
               [
-                Button.url("★ɖɛʋɛʟօքɛʀ★", "https://t.me/ITZ_ME_BLACKMAMBA"),
-                Button.url("★ֆʊքքօʀȶ★", "https://t.me/MAMBA_UPDATES_CHAT")
+                Button.url("ɖɛʋɛʟօքɛʀ", "https://t.me/ITZ_ME_BLACKMAMBA"),
+                Button.url("ֆʊքքօʀȶ", "https://t.me/MAMBA_UPDATES_CHAT")
               ]
             ]
           )
     else:
-        await event.answer("★𝐏𝐋𝐄𝐀𝐒𝐄 𝐉𝐎𝐈𝐍 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 𝐆𝐑𝐎𝐔𝐏 𝐀𝐍𝐃 𝐓𝐀𝐆 @MAMBA_UPDATES★" , cache_time=0, alert=True)
+        await event.answer("𝐏𝐋𝐄𝐀𝐒𝐄 𝐉𝐎𝐈𝐍 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 𝐆𝐑𝐎𝐔𝐏 𝐀𝐍𝐃 𝐓𝐀𝐆 @MAMBA_UPDATES" , cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"spam"))
@@ -206,7 +206,7 @@ async def help_spam(event):
               buttons=[[Button.inline("< Back", data="help_back"),],],
               ) 
     else:
-        await event.answer("★𝐏𝐋𝐄𝐀𝐒𝐄 𝐉𝐎𝐈𝐍 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 𝐆𝐑𝐎𝐔𝐏 𝐀𝐍𝐃 𝐓𝐀𝐆 @MAMBA_UPDATES★", cache_time=0, alert=True)
+        await event.answer("𝐏𝐋𝐄𝐀𝐒𝐄 𝐉𝐎𝐈𝐍 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 𝐆𝐑𝐎𝐔𝐏 𝐀𝐍𝐃 𝐓𝐀𝐆 @MAMBA_UPDATES", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"raid"))
@@ -225,7 +225,7 @@ async def help_raid(event):
             buttons=[[Button.inline("< Back", data="help_back"),],],
           )
     else:
-        await event.answer("★𝐏𝐋𝐄𝐀𝐒𝐄 𝐉𝐎𝐈𝐍 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 𝐆𝐑𝐎𝐔𝐏 𝐀𝐍𝐃 𝐓𝐀𝐆 @MAMBA_UPDATES★", cache_time=0, alert=True)
+        await event.answer("𝐏𝐋𝐄𝐀𝐒𝐄 𝐉𝐎𝐈𝐍 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 𝐆𝐑𝐎𝐔𝐏 𝐀𝐍𝐃 𝐓𝐀𝐆 @MAMBA_UPDATES", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"extra"))
@@ -244,7 +244,7 @@ async def help_extra(event):
             buttons=[[Button.inline("< Back", data="help_back"),],],
             )
     else:
-        await event.answer("★𝐏𝐋𝐄𝐀𝐒𝐄 𝐉𝐎𝐈𝐍 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 𝐆𝐑𝐎𝐔𝐏 𝐀𝐍𝐃 𝐓𝐀𝐆 @MAMBA_UPDATES★", cache_time=0, alert=True)
+        await event.answer("𝐏𝐋𝐄𝐀𝐒𝐄 𝐉𝐎𝐈𝐍 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 𝐆𝐑𝐎𝐔𝐏 𝐀𝐍𝐃 𝐓𝐀𝐆 @MAMBA_UPDATES", cache_time=0, alert=True)
         
 
 @X1.on(events.CallbackQuery(pattern=r"yash"))
@@ -263,5 +263,5 @@ async def help_yash(event):
              buttons=[[Button.inline("< Back", data="help_back"),],],
              )
      else:
-         await event.answer("★𝐏𝐋𝐄𝐀𝐒𝐄 𝐉𝐎𝐈𝐍 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 𝐆𝐑𝐎𝐔𝐏 𝐀𝐍𝐃 𝐓𝐀𝐆 @MAMBA_UPDATES★", cache_time=0, alert=True)
+         await event.answer("𝐏𝐋𝐄𝐀𝐒𝐄 𝐉𝐎𝐈𝐍 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 𝐆𝐑𝐎𝐔𝐏 𝐀𝐍𝐃 𝐓𝐀𝐆 @MAMBA_UPDATES", cache_time=0, alert=True)
 
