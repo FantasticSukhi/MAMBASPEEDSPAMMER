@@ -2,7 +2,9 @@
 
 <h4 align="center"> 𝐀 𝐏𝐎𝐖𝐄𝐑𝐅𝐔𝐋 𝐒𝐏𝐀𝐌𝐁𝐎𝐓𝐒</h4>
 
-[<img src="[https://graph.org/file/2d7e674205bab8329026c.jpg](https://te.legra.ph/file/510a18c7896006c54752d.jpg)"/>]
+<p align="center">
+  <img src="https://te.legra.ph/file/510a18c7896006c54752d.jpg" alt="BOT-SPAM Logo">
+</p>
 
 > ⭐️ Thanks to everyone for using this op ˹𝗠𝗔𝗠𝗕𝗔 𝗦𝗣𝗘𝗘𝗗 𝗦𝗣𝗔𝗠𝗠𝗘𝗥𝗦 🐍˼🫧. That is the greatest pleasure we have !
 
