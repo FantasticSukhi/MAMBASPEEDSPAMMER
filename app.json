@@ -12,52 +12,52 @@
     "env": {
       "BOT_TOKEN": {
         "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
-        "value": "",
+        "value": "6592944193:AAHuxzVt3S1L2A_kqdCTmlA3_o6gdYAYa1c",
         "required": true
       },
       "BOT_TOKEN2": {
         "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
-        "value": "",
+        "value": "6940024120:AAF6TSCIKlv2_Hg5feXdONtxCw2zQwhQFJw",
         "required": true
       },
       "BOT_TOKEN3": {
         "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
-        "value": "",
+        "value": "7135516006:AAG5c--DiM9h2BWvjBrZCNBp5EYTUbFS6TM",
         "required": true
       },
       "BOT_TOKEN4": {
         "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
-        "value": "",
+        "value": "6886345778:AAHJTAWZq9tgKRSRtSiblyBMXeoUDXYbDrI",
         "required": true
       },
       "BOT_TOKEN5": {
         "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
-        "value": "",
+        "value": "6854798532:AAEFkxaeAy07_Dtep2_6LB95g-ljL1z31Dc",
         "required": true
       },
       "BOT_TOKEN6": {
         "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
-        "value": "",
+        "value": "7084604951:AAFFeD1AFK9AlfwWKcy2Suqx71pnEczdwYg",
         "required": true
       },
       "BOT_TOKEN7": {
         "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
-        "value": "",
+        "value": "7130006519:AAEMQkiJpmbw2lyfzKbkB0vOY0Q1xjaaIZU",
         "required": true
       },
       "BOT_TOKEN8": {
         "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
-        "value": "",
+        "value": "7146638630:AAGmksUrD9NqexHOWBh_J7StwK6-Otcmq9k",
         "required": true
       },
       "BOT_TOKEN9": {
         "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
-        "value": "",
+        "value": "6621766027:AAGxKi-yqMeLcev3Fv8UvfMuPYzoR5VzJHU",
         "required": true
       },
       "BOT_TOKEN10": {
         "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
-        "value": "",
+        "value": "7048921570:AAHh-EBBCPpgNdXXv0F-PKTIfnK3jSZt5sU",
         "required": true
       },
       "CMD_HNDLR": {
@@ -67,7 +67,7 @@
       },
       "SUDO_USERS": {
         "description": "Sudo users id space by space",
-        "value": "",
+        "value": "7115355068",
         "required": false
       },
       "OWNER_ID": {
